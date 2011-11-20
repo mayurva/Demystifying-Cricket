@@ -13,7 +13,7 @@ function send_json($result){
 		}
 	}
 	  //header('Content-type: application/json');
-	    echo json_encode($json);
+	    echo '{"data":'.json_encode($json).'}';
 }	
 	
 ?>	
